@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ColorTransferProtocol.h"
 
 @interface C4QColorPickerViewController : UIViewController
+
+@property (nonatomic, weak) id <ColorTransferProtocol> delegate;
 
 @end

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface C4QCatFactsDetailViewController : UIViewController
+@interface C4QCatFactsDetailViewController : UIViewController 
 
+@property (strong, nonatomic) IBOutlet UIImageView *randomPhoto;
+
+@property (strong, nonatomic) IBOutlet UITextView *factTextView;
+
+@property (nonatomic) NSString* factText;
 @end

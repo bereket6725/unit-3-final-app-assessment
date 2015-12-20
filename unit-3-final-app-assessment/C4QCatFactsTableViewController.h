@@ -10,4 +10,12 @@
 
 @interface C4QCatFactsTableViewController : UITableViewController
 
+@property (nonatomic) NSMutableArray* catFactsArray;
+
+@property (nonatomic) NSMutableArray* savedArray;
+
+- (IBAction)saveButtonTapped:(id)sender;
+
+
+
 @end

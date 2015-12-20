@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.factTextView.text = self.factText;
     // Do any additional setup after loading the view.
 }
 
